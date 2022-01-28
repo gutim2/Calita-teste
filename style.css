@@ -168,12 +168,12 @@
         font-size: 16px;
         font-family: 'Red Hat Display', sans-serif;
         width: 375px;
-        height: auto;
         margin:auto;
         background-image: url("images/pattern-background-mobile.svg");
-        background-size: 100%;
+        background-size: 1980px;
+
         background-color:  hsl(225, 100%, 94%);
-        background-repeat: no-repeat;
+
      }
      .section{
         display: flex;
@@ -325,16 +325,17 @@
     body{
         font-size: 16px;
         font-family: 'Red Hat Display', sans-serif;
-        width: 437px;
+        width: 1440px;
         margin:auto;
         background-image: url("images/pattern-background-desktop.svg");
         background-color:  hsl(225, 100%, 94%);
-      
-
+        background-repeat: no-repeat;
     }
+
     .section{
     display: flex;
     flex-direction: column;
+    margin-left: 450px;
 
 }
 
