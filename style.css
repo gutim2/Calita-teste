@@ -1,0 +1,483 @@
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/*Micro mobile contete*/
+@media only screen and (max-width: 375px) {
+    body {
+        font-size: 16px;
+        font-family: 'Red Hat Display', sans-serif;
+        width: 375px;
+        height: auto;
+        margin:auto;
+        background-image: url("images/pattern-background-mobile.svg");
+        background-size: 100%;
+        background-color:  hsl(225, 100%, 94%);
+        background-repeat: no-repeat;
+     }
+     .section{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .card{
+        background-color: hsl(225, 100%, 98%);
+        margin-top: 38px;
+        height: 600px;
+        margin-left: 25px;
+        width: 320px;
+        border-radius: 13px;
+        display: flex;
+        flex-direction:column;
+        -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.19); 
+        box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.19);
+    }
+    
+    .valueyear{
+        display: flex;
+        width: 280px;
+        height: 80px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        flex-direction: row;
+        margin-left: px;
+        border-radius: 10px;
+    }
+    .anualplan-ok{
+        display: flex;
+        margin-left: 20px;
+        
+        flex-direction: column;
+    }
+    
+    .imgcardtag{
+        position:relative;
+        width: 320px;
+        border-radius: 13px 13px 0px 0px;
+    }
+    
+    .changevalue{
+        margin-left: 50px;
+        margin-top: 30px;
+        color:hsl(245, 75%, 52%);
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    
+    .text-content{
+        margin-left: 12px;
+        width:300px;
+        text-align: center;
+        color: hsl(224, 23%, 55%);
+    }
+    
+    .title{
+        text-align: center;
+        font-weight: 900;
+        font-size: 29px;
+        color: hsl(223, 47%, 23%)
+    }
+    
+    .imageplan{
+        margin-top: 15px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .butons-proceds{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .proPayment{
+        color: hsl(225, 100%, 98%);
+        font-weight: 700;
+        font-family: 'Red Hat Display' ;
+        font-size: 15px;
+        width: 270px;
+        height: 50px;
+        border-style: unset;
+        border-radius: 10px;
+        background-color: hsl(245, 75%, 52%);
+    }
+    
+    .proPayment:hover{
+        color: hsl(225, 100%, 98%);
+        font-weight: 700;
+        font-family: 'Red Hat Display' ;
+        font-size: 15px;
+        width: 300px;
+        height: 50px;
+        border-style: unset;
+        border-radius: 10px;
+        background-color: hsl(245, 75%, 52%);
+        opacity: 0.3;
+    }
+    
+
+    .cancelOrd{
+        color: hsl(224, 23%, 55%);
+        font-weight: 700;
+        margin-top: 20px;
+        font-family: 'Red Hat Display' ;
+        text-align: center;
+        font-size: 15px;
+        width: 300px;
+        height: 50px;
+        border-style: unset;
+    
+        background-color: none;
+    }
+    .cancelOrd:hover{
+        color: hsl(223, 47%, 23%);
+        font-weight: 900;
+        margin-top: 20px;
+        font-family: 'Red Hat Display' ;
+        text-align: center;
+        font-size: 15px;
+        width: 300px;
+        height: 50px;
+        border-style: unset;
+        background-color: none;
+    }
+    
+    
+    .yearplan{
+        font-weight: 900;
+        color: hsl(223, 47%, 23%);
+        font-size: 15px;
+    }
+    
+    .value{
+        margin-top: -10px;
+        color: hsl(224, 23%, 55%);
+    
+    
+  }
+  
+
+
+}
+
+/*mobile contente*/
+
+@media only screen and (min-width: 375px) {
+    body {
+        font-size: 16px;
+        font-family: 'Red Hat Display', sans-serif;
+        width: 375px;
+        height: auto;
+        margin:auto;
+        background-image: url("images/pattern-background-mobile.svg");
+        background-size: 100%;
+        background-color:  hsl(225, 100%, 94%);
+        background-repeat: no-repeat;
+     }
+     .section{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .card{
+        background-color: hsl(225, 100%, 98%);
+        margin-top: 38px;
+        height: 600px;
+        margin-left: 25px;
+        width: 320px;
+        border-radius: 13px;
+        display: flex;
+        flex-direction:column;
+        -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.19); 
+        box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.19);
+    }
+    
+    .valueyear{
+        display: flex;
+        width: 280px;
+        height: 80px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        flex-direction: row;
+        margin-left: px;
+        border-radius: 10px;
+    }
+    .anualplan-ok{
+        display: flex;
+        margin-left: 20px;
+        
+        flex-direction: column;
+    }
+    
+    .imgcardtag{
+        position:relative;
+        width: 320px;
+        border-radius: 13px 13px 0px 0px;
+    }
+    
+    .changevalue{
+        margin-left: 50px;
+        margin-top: 30px;
+        color:hsl(245, 75%, 52%);
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    
+    .text-content{
+        margin-left: 12px;
+        width:300px;
+        text-align: center;
+        color: hsl(224, 23%, 55%);
+    }
+    
+    .title{
+        text-align: center;
+        font-weight: 900;
+        font-size: 29px;
+        color: hsl(223, 47%, 23%)
+    }
+    
+    .imageplan{
+        margin-top: 15px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .butons-proceds{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .proPayment{
+        color: hsl(225, 100%, 98%);
+        font-weight: 700;
+        font-family: 'Red Hat Display' ;
+        font-size: 15px;
+        width: 270px;
+        height: 50px;
+        border-style: unset;
+        border-radius: 10px;
+        background-color: hsl(245, 75%, 52%);
+    }
+
+    .proPayment:hover{
+        color: hsl(225, 100%, 98%);
+        font-weight: 700;
+        font-family: 'Red Hat Display' ;
+        font-size: 15px;
+        width: 270px;
+        height: 50px;
+        border-style: unset;
+        border-radius: 10px;
+        background-color: hsl(245, 75%, 52%);
+        opacity: 0.3;
+    }
+    
+    .cancelOrd{
+        color: hsl(224, 23%, 55%);
+        font-weight: 700;
+        margin-top: 20px;
+        font-family: 'Red Hat Display' ;
+        text-align: center;
+        font-size: 15px;
+        width: 300px;
+        height: 50px;
+        border-style: unset;
+    
+        background-color: none;
+    }
+    .cancelOrd:hover{
+        color: hsl(223, 47%, 23%);
+        font-weight: 900;
+        margin-top: 20px;
+        font-family: 'Red Hat Display' ;
+        text-align: center;
+        font-size: 15px;
+        width: 300px;
+        height: 50px;
+        border-style: unset;
+        background-color: none;
+    }
+    
+    .yearplan{
+        font-weight: 900;
+        color: hsl(223, 47%, 23%);
+        font-size: 15px;
+    }
+    
+    .value{
+        margin-top: -10px;
+        color: hsl(224, 23%, 55%);
+    
+    
+  }
+  
+
+
+}
+
+/*COMPUTER PART*/
+
+@media only screen and (min-width: 1440px){
+    body{
+        font-size: 16px;
+        font-family: 'Red Hat Display', sans-serif;
+        width: 437px;
+        height: 1440px;
+        margin:auto;
+        background-image: url("images/pattern-background-desktop.svg");
+        background-size: 100%;
+        background-color:  hsl(225, 100%, 94%);
+        background-repeat: no-repeat;
+
+    }
+    .section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card{
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 128px;
+    height: 600px;
+    width: 380px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction:column;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.19); 
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.19);
+}
+
+.valueyear{
+    display: flex;
+    width: 300px;
+    height: 80px;
+    margin-bottom: 40px;
+    margin-left: 41px;
+    flex-direction: row;
+    margin-left: px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+.anualplan-ok{
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+}
+
+.imgcardtag{
+    position:relative;
+    width: 380px;
+    border-radius: 13px 13px 0px 0px;
+}
+
+.changevalue{
+    margin-left: 70px;
+    margin-top: 30px;
+    color:hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.changevalue:hover{
+    margin-left: 70px;
+    margin-top: 30px;
+    color:hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+
+.text-content{
+    margin-left: 41px;
+    width:300px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 29px;
+    color: hsl(223, 47%, 23%)
+}
+
+.imageplan{
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.butons-proceds{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.proPayment{
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    font-family: 'Red Hat Display' ;
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    border-style: unset;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+}
+
+.proPayment:hover{
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    font-family: 'Red Hat Display' ;
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    border-style: unset;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    opacity: 0.3;
+}
+
+
+.cancelOrd{
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: 'Red Hat Display' ;
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    border-style: unset;
+    background-color: none;
+}
+
+.cancelOrd:hover{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-top: 20px;
+    font-family: 'Red Hat Display' ;
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    border-style: unset;
+    background-color: none;
+}
+
+.yearplan{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.value{
+    margin-top: -10px;
+    color: hsl(224, 23%, 55%);
+}
+}
