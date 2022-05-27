@@ -56,6 +56,12 @@
 
     }
     header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        font-weight: 800px;
+        color:#5F7161;
         background-color: #9CAC94;
         margin: auto;
         width: 100%;
