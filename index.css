@@ -2,7 +2,7 @@
 @media only screen and (min-width: 1440px) {
     body{
       font-family: 'Roboto', sans-serif;
-      background-image: url(/imgs/bgimg.jpg);
+      background-image: url(bgimg.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       margin: auto;
